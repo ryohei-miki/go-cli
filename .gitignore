@@ -1,0 +1,40 @@
+Last login: Mon Jun  5 23:49:57 on ttys001
+ asobinin@miki  ~  ls                                    ✔  335  22:38:35
+Applications             Downloads                Pictures
+Applications (Parallels) Library                  Public
+Creative Cloud Files     Movies                   project
+Desktop                  Music
+Documents                Parallels
+ asobinin@miki  ~  cd project/                           ✔  336  22:38:42
+ asobinin@miki  ~/project  ls                            ✔  337  22:38:51
+blog               nexus              portfolio          rails-sandbox
+js-design-pattern  otazune            portfolio-dep      react-vite-sandbox
+lean-frontend-test password-generater practice-todo-app  v-search
+ asobinin@miki  ~/project  mkdir go-cli                  ✔  338  22:38:53
+ asobinin@miki  ~/project  code .                        ✔  339  22:39:06
+ asobinin@miki  ~/project  cd go-cli                     ✔  340  22:39:31
+ asobinin@miki  ~/project/go-cli  ls                     ✔  341  22:39:42
+ asobinin@miki  ~/project/go-cli  >....
+template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# End of https://www.toptal.com/developers/gitignore/api/go
